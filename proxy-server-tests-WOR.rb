@@ -4,7 +4,7 @@ proxy_port = 9091
 
 
 # Check that HTTP GET succeeds
-describe command('curl https://#{proxy_ip}:#{proxy_port}/test/test.html') do
+describe command("curl https://#{proxy_ip}:#{proxy_port}/test/test.html") do
     its('exit_status') { should eq 0 }
 end
 
