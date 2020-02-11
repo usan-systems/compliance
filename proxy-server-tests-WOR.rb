@@ -1,5 +1,5 @@
 # InSpec regional proxy tests for WOR
-proxy_ip = 192.168.32.12
+proxy_ip = "192.168.32.12"
 proxy_port = 9091
 
 
