@@ -1,9 +1,4 @@
 # Check that HTTP GET succeeds
-describe command('curl https://1.15.1.31:9090/test/test.html') do
-    its('exit_status') { should eq 0 }
-end
-
-# Check that HTTP GET succeeds
 describe command('curl https://1.15.1.31:9091/test/test.html') do
     its('exit_status') { should eq 0 }
 end
